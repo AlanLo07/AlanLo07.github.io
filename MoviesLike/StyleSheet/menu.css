@@ -1,0 +1,45 @@
+:root{
+	--titulo: #D34E24;
+	--firstLetter: #A54E44;
+	--fondo: #5D82F0;
+	--peliculas: #C5F08D;
+	--borde: #F08E75;
+	--menu: #69D2F0;
+}
+
+body{
+	background-color: #000;
+	margin: 2px;
+}
+
+.title{
+	color: var(--titulo);
+	text-align: center;
+}
+
+.title::first-letter{
+	font-size: 60px;
+	color: var(--firstLetter);
+}
+
+header{
+	align: 3px; 
+	width: 100%;
+	height: 50px;
+	background-color: var(--menu);
+}
+
+header img{
+	height: 40px;
+	margin: 4px;
+}
+
+.peliculas{
+	background-color: var(--fondo);
+	width: 98%;
+	height: 20%;
+	color: var(--peliculas);
+	padding: 5px;
+	margin: 2px 10px 2px 10px;
+	border: 3px solid var(--borde);
+}
