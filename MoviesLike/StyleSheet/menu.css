@@ -31,17 +31,12 @@ header{
 	color: #fff;
 	display: flex;
 	justify-content: space-between;
+	font-family: 'Open Sans', sans-serif;
 }
 
 header img{
 	height: 100px;
 	margin: 2px;
-}
-
-.header__menu{
-	margin-right: 2px;
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
 }
 
 .header__menu ul{
