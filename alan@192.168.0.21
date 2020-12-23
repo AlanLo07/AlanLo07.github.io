@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="StyleSheet/header.css"/>
+	<title>Alan Lopez</title>
+<head/>
+<body>
+	<header>
+		<div>
+			<figure>
+				<img src="Images/Logo.png" alt="Logo"/>
+			</figure>
+			<nav>
+				<ul>
+					<li><a>Portafolio</a></li>
+					<li><a>Experiencia</a></li>
+					<li><a>Proyectos</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section><h1>Soy <strong>Alan López</strong> Desarrollador<br/>amante de los deportes, la prgramación y las TIC's. </h1>
+		<img/> Cargar logo
+	</section>
+	<section>
+		<h2>Protafolio</h2>
+		<article>
+			<h3>Simon Dice</h3>
+			<h6>Java Script</h6>
+			<p><small><strong>Fecha: </strong>08/08/2020</small></p>
+			<p><small><strong>Juega en:</strong> alanLo07.github.io/SimonDiceJS</small></p>
+			<p>Simple juego desarrollado en Java Script</p>  
+	</section>
+	<section>Seccion contacto</section>
+<body/>
+<html/>
