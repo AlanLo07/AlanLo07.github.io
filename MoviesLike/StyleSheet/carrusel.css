@@ -1,0 +1,38 @@
+.carrusel{
+    width: 100%;
+    overflow: scroll;
+    padding: 30px;
+    position: relative;
+}
+
+.peliculas{
+    white-space: nowrap;
+    margin: 70px 0px;
+    padding-bottom: 10px;
+}
+
+.pelicula{
+    width: 200px;
+    height: 250px;
+    background: #c43556;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms all;
+    transform-origin: center left;
+}
+
+.pelicula:hover ~ .pelicula{
+    transform: translate3d(100px,0,0);
+}
+
+.peliculas:hover .pelicula{
+    opacity: 0.6;
+}
+
+.peliculas:hover .pelicula:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
