@@ -1,0 +1,19 @@
+header{
+	background-color: #a6a6a6;
+	text-decoration: solid;
+}
+
+header img{
+	height: 150px;
+	margin: 0;
+	padding: 0;
+}
+
+header .menu{
+	display: flex;
+	justify-content: space-between;
+}
+header .menu ul{
+	list-style: none;
+	font-size: 30px;
+}
