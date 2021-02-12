@@ -8,8 +8,9 @@
 }
 
 body{
-	background-color: var(--fondo);
+	background: linear-gradient(#4565d6,#41C06B);
 	margin: 2px;
+	overflow-x: hidden;
 }
 
 .title{
@@ -112,7 +113,7 @@ header img{
 }
 
 ::placeholder{
-	color: white
+	color: #fff;
 }
 
 .header__menu__buscar:hover h1{

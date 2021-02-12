@@ -3,11 +3,14 @@
     overflow: scroll;
     padding: 30px;
     position: relative;
+    overflow:hidden;
 }
 
 .peliculas{
+    display: flex;
+    flex-wrap: wrap;
     white-space: nowrap;
-    margin: 70px 0px;
+    margin: 70px 100px;
     padding-bottom: 10px;
 }
 
@@ -17,9 +20,10 @@
     background: #c43556;
     border-radius: 10px;
     overflow: hidden;
-    margin-right: 10px;
+    margin-right: 50px;
     display: inline-block;
     cursor: pointer;
+    margin-top: 40px;
     transition: 450ms all;
     transform-origin: center left;
     position: relative;
@@ -70,4 +74,25 @@
 .Detalle-subtitulo{
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.footer{
+    background-color: #41C06B; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+
+.footer a{
+    cursor:pointer;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
 }
