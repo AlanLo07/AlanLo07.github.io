@@ -7,42 +7,84 @@
 	<title>Alan Lopez</title>
 	<link rel="icon" type="image/png" href="https://i.ibb.co/YhntmgH/Logo.png"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<div class="menu">
+	<header class="menu">
+		<div class="container">
 			<figure>
-				<img src="https://i.ibb.co/YhntmgH/Logo.png" alt="Logo"/>
+				<img src="https://i.ibb.co/VvVJvzR/foto.jpg" alt="Logo"/>
 			</figure>
-			<nav>
+			<nav class="burguer-menu">
 				<ul>
-					<li><a href="./portafolio">Portafolio</a></li>
+					<li><a href="">Portafolio</a></li>
 					<li><a href="">Experiencia</a></li>
 					<li><a href="">Proyectos</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-	<section><h1>Soy <strong>Alan López</strong> Desarrollador<br/>amante de los deportes, la programación y las TIC's. </h1>
-		<img src="https://i.ibb.co/VvVJvzR/foto.jpg" width="400"/>
-	</section>
-	<section id="portafolio">
-		<h2>Protafolio</h2>
-		<article>
-			<h3>Simon Dice</h3>
-			<h6>Java Script</h6>
-			<p><small><strong>Fecha: </strong>08/08/2020</small></p>
-			<p><small><strong>Juega en:</strong> <a href="http://alanlo.me/SimonDiceJS">alanLo07.github.io/SimonDiceJS</a></small></p>
-			<p>Simple juego desarrollado en Java Script</p>  
-	</section>
-	<section>
+	<div class="hero">
+		<div class="container">
+			<section><h1>Hola! Soy <strong>Alan López</strong><br/> Desarrollador y amante <br/>de los deportes.</h1>
+			</section>
+		</div>
+	</div>
+	<div class="container">
+		<section id="portafolio" class="Portafolio">
+			<h2>Portafolio</h2>
+			<article class="Simon-Dice">
+				<div class="article-description">
+					<h3>Simon Dice</h3>
+					<h6>Java Script</h6>
+					<p><small><strong>Fecha: </strong>08/08/2020</small></p>
+					<p><small><strong>Juega en:</strong> <a href="http://alanlo.me/SimonDiceJS">alanlo.me/SimonDiceJS</a></small></p>
+					<p>Simple juego desarrollado en Java Script, Usando sitintas librerias para que puedas interactuar con el. Se raelizo para aprender a usar Java Script. </p>	
+				</div>
+				<img src="https://i.ibb.co/HBMM0Vd/Simon-Dice.png"/>
+			</article>
+			<article class="MoviesLike">
+				<div class="article-description">
+					<h3>Movies Like</h3>
+					<h6>HTML/CSS</h6>
+					<p><small><strong>Fecha: </strong>28/01/2021</small></p>
+					<p><small><strong>Velo en:</strong> <a href="http://alanlo.me/MoviesLike">alanlo.me/MoviesLike</a></small></p>
+					<p>Este sitio solo es un maqueta usando css. Aprendiendo a usar flex-box para posicionas cada elemento.</p>
+				</div>  
+				<img src="https://i.ibb.co/CHy71R8/Movies-Like.png"/>
+			</article>
+			<article class="Login-responsive">
+				<div class="article-description">
+					<h3>Login Responsive</h3>
+					<h6>HTML/CSS</h6>
+					<p><small><strong>Fecha: </strong>02/02/2021</small></p>
+					<p><small><strong>Velo en:</strong> <a href="http://alanlo.me/MoviesLike/Login.html">alanlo.me/MoviesLike/Login</a></small></p>
+					<p>En este Login aprendimos a que el contenido de un sitio se vea fluido respecto a la resolucion de cada pantalla, adaprando asi nuestro contenido para diferentes dispositivos</p>
+				</div>  
+				<img src="https://i.ibb.co/89Xvqw5/Login.png"/>
+				<img src="https://i.ibb.co/9sDGzY7/Login-Responsive.png">
+			</article>
+		</section>
+	</div>
+	<section class="contact">
 		<form action="./index.html">
-			<h3>Conoceme<h3>
+			<h3>Conoceme</h3>
 			<label for="email">Contactame</label>
-			<input type="email" placeholder="tu@email" id="email">
+			<input type="email" placeholder="tu@email 📩" id="email">
 			<button>Enviar</button>
 		</form>
+		<div class="social">
+			<a href="https://www.facebook.com/alaanrickardoo.l" class="link face"></a>
+			<a href="https://twitter.com/AlanLtecu?s=09" class="link twitter"></a>
+			<a href="https://github.com/AlanLo07" class="link github"></a>
+			<a href="https://www.instagram.com/alan_ricardo2/" class="link instagram"></a>
+		</div>
 	</section>
-	<footer>footer</footer>
+	<footer class="footer">
+		<div class="footer-container">
+			<p>Desarrollado por Alan Lopez ❤ Febrero 2021</p>
+		</div>
+	</footer>
 </body>
 </html>
