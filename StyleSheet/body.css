@@ -1,0 +1,153 @@
+body{
+	background: linear-gradient(#bfbfbf,#4573B9);
+	background: #fff
+	padding:0px;
+	margin: 0px auto;
+}
+
+h1{
+	font-size: 40px;
+	line-height: 150%;
+	font-family: 'Sniglet', cursive;
+	font-weight: normal;
+	letter-spacing: -.5px;
+	text-transform: initial;
+}
+
+h1 strong{
+	color: #0204FE;
+}
+
+.Portafolio img{
+	height: 300px;
+}
+
+.Portafolio h2{
+	font-size: 30px;
+	padding-left: 30px;
+}
+
+.article-description{
+	width:500px;
+}
+
+.hero{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	height:300px;
+	margin: 0px 400px 0px 0px;
+	width: 100%;
+	background-image: url("https://i.ibb.co/YhntmgH/Logo.png");
+	background-size: 500px 400px;
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-color: #3464A5;
+	border-top: 5px solid black;
+}
+
+.hero h1{
+	margin-right: 502px;
+}
+
+.Portafolio article{
+	border: 2px solid #000;
+	border-radius: 10px;
+	margin-top:10px;
+	margin-left: 20px;
+	margin-right: 10px;
+	padding: 10px; 
+	display: flex;
+	background-color: #747673;
+	justify-content: space-around;
+}
+
+.Portafolio h3{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.Portafolio h6{
+	font-size: 15px
+}
+
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background: #131313;
+	padding: 0;
+	padding-right: 10px;
+	margin-bottom: 0;
+	color: #fff;
+}
+
+.contact{
+	margin-top:  20px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #061438;
+	color: #fff;
+	height: 150px;
+}
+
+.social{
+	display: flex;
+	justify-content: space-around;
+}
+
+.link{
+	display: flex;
+	width:80px;
+	height:80px;
+	margin-left: 20px;
+	background-size: 80px 80px;
+}
+
+.link.twitter{
+	background-image: url("https://img.icons8.com/carbon-copy/100/000000/twitter--v2.png");
+}
+
+.link.face{
+	background-image: url("https://img.icons8.com/dotty/80/000000/facebook-new.png");
+}
+
+.link.github{
+	background-image: url("https://img.icons8.com/dotty/80/000000/github.png");
+}
+
+.link.instagram{
+	background-image: url("https://img.icons8.com/wired/64/000000/instagram-new.png");
+}
+
+.contact input{
+	border-color: 434343;
+	border-radius: 5px;
+	padding:2px;
+	height: 25px;
+}
+
+.contact button{
+	border-radius: 10px;
+	height: 35px;
+	width: 60px;
+	background: transparent;
+	border: solid 2px #323232;
+	color: #fff;
+}
+
+.contact button:hover{
+	cursor: pointer;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+}
