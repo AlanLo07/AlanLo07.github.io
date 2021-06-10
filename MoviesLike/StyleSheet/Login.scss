@@ -1,0 +1,163 @@
+//@extend hacer propiedades en una clase y no repetir esas propiedades en cada clase
+//@include va con la clase @mixin clase
+
+body{
+    background: linear-gradient(#4565d6,#41C06B);
+}
+
+header{ 
+	width: 100%;
+	height: 105px;
+	background-color: #4565d6;
+	color: #fff;
+	display: flex;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header img{
+	height: 100px;
+}
+
+.Login{
+    background: linear-gradient(#4565d6,#41C06B);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+
+.Login-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
+    background-color: rgba(255,255,255,0.1);
+    border: 5px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+    padding: 60px 68px 40px;
+    min-height: 600px;
+    min-width: 300px;
+}
+
+.Formulario{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Formulario label{
+    font-size:14px;
+}
+
+.remember-me{
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.remember-me a{
+    color:#fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.remember-me a:hover{
+    text-decoration: underline;
+}
+
+.social-media img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.social-media > div{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px;
+    cursor: pointer;
+    width: 180px;
+}
+
+.registro{
+    font-size:14px;
+}
+
+.registro a{
+    color:#fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration:none;
+}
+
+.registro a:hover{
+    text-decoration: underline;
+}
+
+.input-texto, .input-password {
+    background-color:transparent;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 3px solid #aaa;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    outline:none;
+    height: 50px;
+}
+
+::placeholder{
+    color:#ccc;
+}
+
+.btn{
+    justify-content: center;
+    background-color:rgba(255,255,255,0.3);
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    letter-spacing:1px;
+    margin:10px 0px 5px 0px
+}
+
+.footer{
+    background-color: #41C06B; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+
+.footer a{
+    cursor:pointer;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:600px){
+    .Login-container{
+        background-color: transparent;
+        border: none;
+        padding:0px;
+        width: 100%;
+    }
+}
